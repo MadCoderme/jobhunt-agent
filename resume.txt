@@ -1,0 +1,47 @@
+Abrar FairujRaiyan
+Chattogram, Bangladesh
+# youcanreplylishup@gmail.com • ð abrar-fairuj-raiyan • § madcoderme
+CS undergraduate (3.96 CGPA) and AI Engineer specializing in LLM systems, agentic workflows and production-grade AI
+integration. Strong experience in developing production AI tools, machine learning research and full stack development.
+Passionate about system architecture and deploying efficient, localized AI solutions to solve complex business problems.
+Technical Skills
+Languages: Python, SQL, C/C++, JavaScript/TypeScript.
+GenAI & LLMs: LangChain, LangGraph, LangSmith, RAG Architecture, Agentic Workflows, Hugging Face.
+Core ML: PyTorch, TensorFlow, Scikit-Learn, Vision-Language Models (VLMs).
+Backend & Data: PostgreSQL, Node.js, Vector Databases (pgvector, Qdrant, Pinecone), Serverless Architecture.
+Cloud & DevOps: Git, Docker, Linux, Google Cloud Platform (GCP), AWS, CI/CD.
+Education
+Chittagong University of Engineering and Technology (CUET)
+BSc in Computer Science and Engineering 2025 – 2029
+CGPA: 3.96
+Professional Experience
+BUET (Research Based Product Development) Dhaka, Bangladesh
+Software Engineer Intern (AI & Backend) May 2025 – Oct 2025
+○ Engineered a scalable SQL + RAG pipeline using PostgreSQL, LangChain, and vector databases (Qdrant, Pinecone) for an
+LLM-powered financial QA system processing 100K+ records.
+○ Reduced query response latency by 73% and significantly improved answer accuracy through prompt engineering and vector
+optimization. Integrated LangSmith for efficient LLM observability, telemetry, and hallucination monitoring.
+Supacodes Remote
+Backend & AI Engineer Jun 2024 – Jan 2025
+○ Developed and launched an AI-powered documentation generator for GitHub codebases, architecting backend LLM integrations,
+secure user authentication, and API rate-limiting.
+○ Designed cloud infrastructure and deployed the SaaS product, achieving successful initial sales through building in public and
+rapid iteration.
+Academic Research & Publications
+Exoplanet Detection Architecture CUET
+Lead AI Researcher 2025 – 2026
+○ Designed a machine learning architecture utilizing heterogeneous datasets to accurately detect exoplanets.
+○ Authored “A Calibrated Mission-Gated Expert Architecture for Exoplanet Detection across Heterogeneous Datasets,” presented
+at the International Conference on Electrical, Computer and Communication Technology (ECCT) 2026.
+Selected Projects
+Cursiv | Nuxt, Python, LangGraph | Live Demo: Architected an AI-native writing platform utilizing LangGraph to orchestrate
+multi-agent workflows for drafting, editing, research, and fact-checking. Built a responsive frontend with Nuxt and a scalable
+hybrid Node.js/Python backend.
+RedditQuest | Node.js, Python, Gemini, Supabase | Live Demo: Developed a scalable SaaS for finding real-time curated
+leads from Reddit conversations, integrating LLMs to generate highly personalized, product-based soft pitches for targeted
+outreach. Took it from zero to production and ran with paying customers.
+ID Card Extraction System | Python, Vision-Language Models (VLMs): Engineered a production-ready PoC for a
+commercial bank utilizing vision models to accurately extract and transliterate ID card data, significantly reducing manual data
+entry in KYC workflows.
+Snomail | Nuxt, Node.js | GitHub: Developed an open-source, standalone cold-emailing framework equipped with essential
+modern personalization features and robust delivery mechanics.
