@@ -1,0 +1,106 @@
+# Public configuration template. Copy to config.yaml and customize it.
+
+resume_path: "resume.txt"
+output_html: "jobs_shortlist.html"
+db_path: "jobs_seen.sqlite3"
+
+preferences:
+  exclude_seniority:
+    - "senior"
+    - "sr."
+    - "staff"
+    - "principal"
+    - "lead "
+    - "director"
+    - "head of"
+    - " vp "
+    - "chief"
+    - "manager"
+    - "founding"
+    - "founder"
+  include_keywords:
+    - "python"
+    - "backend"
+    - "full stack"
+    - "software engineer"
+    - "data engineer"
+    - "machine learning"
+    - "artificial intelligence"
+    - "ai engineer"
+    - "genai"
+    - "data scientist"
+  exclude_keywords:
+    - "unpaid"
+    - "volunteer"
+    - "commission only"
+  preferences: |
+    Describe the roles, work authorization, location, and career stage you want.
+  remote_only: true
+  min_salary_usd: 0
+
+scoring:
+  score_threshold: 70
+  max_jobs_per_run: 40
+  gemini_model: "gemini-3.5-flash-lite"
+  groq_model: "llama-3.3-70b-versatile"
+
+freshness:
+  max_age_days: 7
+  max_unknown_age_days: 30
+  drop_unknown_age: false
+
+resume_tailoring:
+  enabled: false
+  min_score: 85
+  gemini_model: "gemini-3.8-flash"
+  groq_model: "llama-3.3-70b-versatile"
+  output_dir: "tailored_resumes"
+  resumes:
+    ai: "resumes/resume_ai.tex"
+    fullstack: "resumes/resume_fullstack.tex"
+  ai_keywords:
+    - "machine learning"
+    - "llm"
+    - "ai engineer"
+    - "rag"
+    - "langchain"
+    - "langgraph"
+    - "pytorch"
+    - "tensorflow"
+    - "genai"
+  fullstack_keywords:
+    - "full stack"
+    - "full-stack"
+    - "frontend"
+    - "backend"
+    - "react"
+    - "next.js"
+    - "node.js"
+    - "vue"
+    - "mobile"
+
+funded_startups:
+  enabled: true
+  lookback_days: 14
+
+sources:
+  arbeitnow: true
+  remoteok: true
+  remotive: true
+  jobicy: true
+  adzuna: false
+  hn_who_is_hiring: true
+
+browser_capture:
+  enabled: false
+  cdp_url: "http://localhost:9222"
+  site_url_patterns:
+    - "wellfound.com"
+    - "indeed.com"
+    - "jobright.ai"
+  scroll_passes: 6
+  scroll_pause_seconds: 1.2
+  indeed_max_pages: 3
+  visit_detail_pages: true
+  max_detail_pages_per_run: 30
+  detail_page_delay_seconds: 1.5

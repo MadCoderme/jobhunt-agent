@@ -1,3 +1,27 @@
-env
-__pycache__
+env/
+.venv/
+__pycache__/
+*.py[cod]
 .env
+.browser_tab_origins.json
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Local profile data and generated runtime output
+resume.txt
+config.yaml
+resumes/
+jobs_seen.sqlite3
+jobs_shortlist.html
+tailored_resumes/
+
+# LaTeX build products
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.synctex.gz

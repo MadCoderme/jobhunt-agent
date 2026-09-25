@@ -1,0 +1,4 @@
+Replace this file with your plain-text resume before running the agent.
+
+Include the experience, education, skills, and projects that should inform job
+matching. Do not commit a personal resume to a public repository.

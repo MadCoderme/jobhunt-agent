@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-job-search-agent"
+version = "0.1.0"
+description = "A local-first job discovery, scoring, and resume tailoring workflow."
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "requests>=2.31.0",
+    "pyyaml>=6.0",
+    "jinja2>=3.1.0",
+    "python-dotenv>=1.0.0",
+    "playwright>=1.45.0",
+]
+
+[project.scripts]
+job-search = "job_search.agent:main"
+job-search-scheduler = "job_search.scheduler:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
